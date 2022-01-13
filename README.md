@@ -30,4 +30,6 @@ const matrix = {
 
 ![Preview after setup](https://raw.githubusercontent.com/sarmientoF/titech_userscripts/main/images/preview.png)
 
+![Working demo](https://raw.githubusercontent.com/sarmientoF/titech_userscripts/main/images/preview_video.gif)
+
 You are ready to enjoy a smooth login in titech portal 🚀
