@@ -27,7 +27,7 @@ function login() {
 	const passwordInput = getElementByXpath(passwordPath);
 	const okButton = getElementByXpath(okPath);
 
-	accountInput.value = "18B07124";
+	accountInput.value = "STUDENT_ID";
 	passwordInput.value = "PASSWORD"; //TODO: Fill your password here
 
 	okButton.click();
