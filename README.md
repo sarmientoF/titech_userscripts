@@ -1,4 +1,4 @@
-# TITECH Login Automatization
+# 🤖 TITECH Login Automatization
 
 This will help you to login in the `titech portal` in any browser; it even works in safari for `ios` or `macos`.
 
@@ -25,5 +25,9 @@ const matrix = {
 ```
 
 3. Open `Userscripts` in Safary and click on `Open Extension pages`. Then create two new javascript code and paste the content from `Login Titech.js` and `Titech Fill Matrix.js`.
+
+## Preview
+
+![Preview after setup](https://raw.githubusercontent.com/sarmientoF/titech_userscripts/main/images/preview.png)
 
 You are ready to enjoy a smooth login in titech portal 🚀
