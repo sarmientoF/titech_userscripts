@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Login Titech
 // @description This is your new file, start writing code
-// @match       *://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=userpass_key&AUTHMETHOD=UserPassword*
+// @include       *://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=userpass_key&AUTHMETHOD=UserPassword*
 // @run-at       document-end
 // ==/UserScript==
 
