@@ -15,7 +15,7 @@ accountInput.value = "STUDENT_ID";
 passwordInput.value = "PASSWORD";
 ```
 
-2. Go to `Titech Fill Matrix.js` and add your matrix details from the back of your student id
+2. Go to `Titech Fill Matrix.js` and add your matrix details from the back of your student id 🪪
 
 ```js
 const matrix = {
