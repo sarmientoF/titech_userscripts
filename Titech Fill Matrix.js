@@ -16,8 +16,7 @@ function getElementByXpath(path) {
 }
 
 function fillMatrix() {
-	const okPath =
-		"/html/body/center[3]/form/table/tbody/tr/td/table/tbody/tr[8]/td/input[1]";
+	const okPath = '//*[@id="authentication"]/tbody/tr[9]/td/input[1]';
 
 	const okButton = getElementByXpath(okPath);
 
@@ -27,21 +26,21 @@ function fillMatrix() {
 	}; // TODO: Fill your matrix here
 
 	const mPaths = [
-		'//*[@id="authentication"]/tbody/tr[4]/td/div/div/input',
 		'//*[@id="authentication"]/tbody/tr[5]/td/div/div/input',
 		'//*[@id="authentication"]/tbody/tr[6]/td/div/div/input',
+		'//*[@id="authentication"]/tbody/tr[7]/td/div/div/input',
 	];
 
 	const vPaths_1 = [
-		'//*[@id="authentication"]/tbody/tr[4]/th[1]',
 		'//*[@id="authentication"]/tbody/tr[5]/th[1]',
 		'//*[@id="authentication"]/tbody/tr[6]/th[1]',
+		'//*[@id="authentication"]/tbody/tr[7]/th[1]',
 	];
 
 	const vPaths_2 = [
-		'//*[@id="authentication"]/tbody/tr[4]/td',
 		'//*[@id="authentication"]/tbody/tr[5]/td',
 		'//*[@id="authentication"]/tbody/tr[6]/td',
+		'//*[@id="authentication"]/tbody/tr[7]/td',
 	];
 
 	const vPaths =
